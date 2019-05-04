@@ -11,7 +11,7 @@ const SongDetail = ({ song }) => {
       <p>
         Title: {song.title}
         <br />
-        Duration:{song.duration}
+        Artist:{song.artist}
       </p>
     </div>
   );

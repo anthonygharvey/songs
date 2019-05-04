@@ -2,10 +2,19 @@ import { combineReducers } from "redux";
 
 const songsReducer = () => {
   return [
-    { title: "No Scrubs", duration: "4:05" },
-    { title: "Macarena", duration: "2:30" },
-    { title: "All Star", duration: "3:15" },
-    { title: "I Want It That Way", duration: "1:45" }
+    { title: "Old Town Road", artist: "Lil Nas X feat Billy Ray Cyrus" },
+    { title: "Wow", artist: "Post Malone" },
+    {
+      title: "Sunflower (Spider-Man: Into The Spiderverse",
+      artist: "Post Malone & Swae Lee"
+    },
+    { title: "7 Rings", artist: "Ariana Grande" },
+    { title: "Sucker", artist: "Jonas Brothers" },
+    { title: "Without Me", artist: "Halsey" },
+    { title: "Dancing With A Stranger", artist: "Sam Smith & Normani" },
+    { title: "Talk", artist: "Khalid" },
+    { title: "Bad Guy", artist: "Billie Eilish" },
+    { title: "Middle Child", artist: "J. Cole" }
   ];
 };
 
